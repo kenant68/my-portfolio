@@ -6,7 +6,6 @@
 .center-title {
   margin-top: 15%;
   margin-bottom: 25%;
-  margin-left: 35%;
   justify-items: center;
   color: rgb(0, 208, 255);
 }
@@ -62,8 +61,6 @@ a {
 a:hover {
   color: rgb(0, 208, 255);
 }
-
-
 
 header {
   position: sticky;
@@ -124,7 +121,6 @@ div.content {
 div.content-title {
   justify-items: center;
   color: white;
-  padding-left: 30%;
 }
 
 div.content-box {
@@ -157,10 +153,22 @@ div.title-before-content {
 @media screen and (max-width: 900px) {
   .menu-hamburger {
     display: block;
+    position: sticky;
   }
 
   header {
     padding: 1.9%;
+  }
+
+  div.center-title {
+    margin: 15%;
+    justify-items: center;
+  }
+
+  div.content-title {
+    justify-items: center;
+    margin-left: 25%;
+    margin-right: 30%;
   }
 
   div.navbar-items {
@@ -200,7 +208,9 @@ div.title-before-content {
     box-sizing: border-box;
   }
 
-  
+  .logo {
+    width: 100%;
+  }
 
   html,
   body {
@@ -212,6 +222,7 @@ div.title-before-content {
 
   .menu-hamburger {
     display: block;
+    position: sticky;
   }
 
   header .menu-hamburger {
@@ -249,7 +260,6 @@ div.title-before-content {
     font-size: small;
     justify-items: center;
     color: white;
-    padding-left:33% ;
   }
 
   div.title-before-content {
@@ -313,5 +323,11 @@ div.title-before-content {
 
   div.box-content a {
     font-size: 0.8em;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .logo {
+    width: 95%;
   }
 }
