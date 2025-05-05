@@ -6,6 +6,7 @@
 .center-title {
   margin-top: 15%;
   margin-bottom: 25%;
+  margin-left: 35%;
   justify-items: center;
   color: rgb(0, 208, 255);
 }
@@ -123,6 +124,7 @@ div.content {
 div.content-title {
   justify-items: center;
   color: white;
+  padding-left: 30%;
 }
 
 div.content-box {
@@ -146,7 +148,7 @@ div.content-box h2 {
 }
 
 div.title-before-content {
-  padding-left: 5%;
+  padding-left: 10%;
   justify-items: left;
   color: rgb(0, 208, 255);
 }
@@ -198,6 +200,8 @@ div.title-before-content {
     box-sizing: border-box;
   }
 
+  
+
   html,
   body {
     margin: 0;
@@ -231,8 +235,10 @@ div.title-before-content {
   .center-title {
     margin-top: 30%;
     margin-bottom: 50%;
+    margin-left: 20%;
     justify-items: center;
     color: rgb(0, 208, 255);
+    padding: 15%;
   }
 
   p {
@@ -243,11 +249,12 @@ div.title-before-content {
     font-size: small;
     justify-items: center;
     color: white;
+    padding-left:33% ;
   }
 
   div.title-before-content {
     font-size: medium;
-    padding-left: 20px;
+    padding-left: 5%;
     justify-items: left;
     color: rgb(0, 208, 255);
   }
