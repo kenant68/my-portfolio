@@ -347,3 +347,9 @@ div.title-before-content {
     right: 10px;
   }
 }
+
+@media screen and (max-width: 380px) {
+  div.center-title {
+    margin-right: 5%;
+  }
+}
